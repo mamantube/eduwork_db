@@ -1,17 +1,29 @@
+import DataUser from "../../models/DataUser.js";
+
 /**
  * @type {import("express").RequestHandler}
  */
-import DataUser from "../../models/DataUser.js";
+
 
 const List =  (req, res) => {
     res.send({ DataUser });
     
 };
 
+
 const Detail = (req, res) => {
     const name = req.params.name;
+    const result = DataUser.filter((data) => data.name === name.toLowerCase())
 
-    res.send({ name });
+    res.send({ result });
+};
+
+const Create = (req, res) => {
+    const body = req.body;
+
+    DataUser.push(body)
+
+    res.send({ DataUser })
 }
 
-export {List, Detail};
+export {List, Detail, Create};

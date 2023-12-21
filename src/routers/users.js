@@ -1,5 +1,5 @@
 import express from "express";
-import {List, Detail} from "../controllers/users/index.js"
+import { List, Detail, Create } from "../controllers/users/index.js"
 
 
 const Router = express.Router();
@@ -22,7 +22,9 @@ Router.get("/about/:name", (req, res) => {
 
 Router.get("/users/List", List);
 
-Router.get("users/:name", Detail)
+Router.get("/users/:name", Detail);
+
+Router.post("/users/new", Create);
 
 Router.get("/product/:id", (req, res) => {
     const { id } = req.params;

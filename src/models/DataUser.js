@@ -1,14 +1,14 @@
 const DataUser =[
     {
-        name: "Maman",
+        name: "maman",
         age: 20
     },
     {
-        name: "Mimin",
+        name: "mimin",
         age: 25
     },
     {
-        name: "Mumun",
+        name: "mumun",
         age: 23
     }
 ]
