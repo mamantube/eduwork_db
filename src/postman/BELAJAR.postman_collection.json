@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "c372285b-3764-435b-acde-42ab6a7e20a1",
+		"name": "BELAJAR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25771115",
+		"_collection_link": "https://galactic-water-910002.postman.co/workspace/Team-Workspace~30eabd65-1a20-4f92-8911-13a72971d9bb/collection/25771115-c372285b-3764-435b-acde-42ab6a7e20a1?action=share&source=collection_link&creator=25771115"
+	},
+	"item": [
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "about",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "home",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "LIST",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Detail",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
